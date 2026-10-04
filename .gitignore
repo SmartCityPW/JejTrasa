@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+backend/.venv/
+
+# surowe kafle OSM (~120 MB) - odtwarzalne przez scripts/fetch_osm.py
+backend/data/raw/
+
+# baza runtime (ankiety, zgłoszenia) - tworzona przy starcie
+backend/data/*.db
+backend/data/*.db-journal
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+.DS_Store
+Thumbs.db
